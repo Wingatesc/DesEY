@@ -1,5 +1,7 @@
 body {
   background-color: #f9f9f9;
+  font-family: 'Roboto';font-size: 22px;
+  margin: 16px 0px;
 }
 h1 {
   font-size: 4rem;
@@ -18,15 +20,30 @@ h3 {
   flex-direction: column;
 }
 .LargeDarkBanner{
-  /*background-color: #666;*/
+  background-color: #666;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  
   padding: 24px;
-  margin: 16px;
+  margin: 16px 0px;
+}
+.LargeLightBanner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+  margin: 16px 0px;
 }
 .QuoteText{
 text-align: center; 
+}
+.PrimaryCTA{
+padding: 16px;
+color: black;
+border: 2px solid black;
+border-radius: 6px;
+background-color: #fff;
+text-decoration: none;
 }
