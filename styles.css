@@ -8,8 +8,25 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  font-size: 1,8rem;
+}
+
 .TopOfThePage {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.LargeDarkBanner{
+  /*background-color: #666;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+  padding: 24px;
+  margin: 16px;
+}
+.QuoteText{
+text-align: center; 
 }
