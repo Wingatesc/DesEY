@@ -36,6 +36,13 @@ h3 {
   padding: 24px;
   margin: 16px 0px;
 }
+.LargeBannerTxt{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 24px;
+  margin: 16px 0px;
+}
 .QuoteText{
 text-align: center; 
 }
@@ -46,4 +53,10 @@ border: 2px solid black;
 border-radius: 6px;
 background-color: #fff;
 text-decoration: none;
+}
+
+.TxtCadreNoir{
+  max-width: 208px;
+  padding: 16px;
+  border: solid 1px;
 }
