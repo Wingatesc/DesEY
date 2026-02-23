@@ -56,7 +56,10 @@ text-decoration: none;
 }
 
 .TxtCadreNoir{
-  max-width: 208px;
+  max-width: 288px;
   padding: 16px;
+  border: solid 1px;
+}
+.BorderImg{
   border: solid 1px;
 }
