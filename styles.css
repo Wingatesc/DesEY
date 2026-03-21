@@ -58,6 +58,7 @@ text-decoration: none;
 .TxtCadreNoir{
   max-width: 288px;
   padding: 16px;
+  margin: 16px;
   border: solid 1px;
 }
 .BorderImg{
